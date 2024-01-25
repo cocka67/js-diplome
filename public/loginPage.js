@@ -13,7 +13,6 @@ userForm.loginFormCallback = (data) => {
             // Успешная авторизация
             console.log("Авторизация успешна");
             // Обновляем страницу
-            userForm.loginFormAction(data);
             location.reload();
         } else {
             // Ошибка авторизации
@@ -33,7 +32,6 @@ userForm.registerFormCallback = (data) => {
             // Успешная авторизация
             console.log("Вы успешно зарегистрировались");
             // Обновляем страницу
-            userForm.registerFormAction(data);
             location.reload();
         } else {
             // Ошибка авторизации
